@@ -1,0 +1,128 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #aabbfd;
+
+}
+
+.header{
+  display: flex; 
+  border-right-width: 0px;
+  margin-right: 0px;
+  right: 0px;
+  left: 0px;
+  width: 99,9vw;
+  justify-content: space-between;
+  background: linear-gradient(white,#aabbfd);
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  font-size: 25px;
+  margin: 0%;
+  align-items: center;  
+  height: 10vh;
+  padding-left: 10px;
+  position: fixed;
+  border: 20px;
+    top: 0px;
+}
+h1{
+  font-size: 25px;
+}
+.menu{
+  width: 20vw;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-right: 800px;
+}
+aside{
+  min-height: 30vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+h2{
+  color: aliceblue;
+  margin-top: 0%;
+  font-family: sans-serif;
+  font-size: 30px;
+  margin: 5px;
+}
+h3{
+  color: aliceblue;
+  margin-top: 0%;
+  font-size: 23px;
+  margin: 0px;
+}
+.obj{
+  justify-content: space-around;
+  width: 100%;
+  height: 200px;
+  background: white;
+  color: #545454;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+.objetivo{
+  align-items: center;
+  padding-left: 715px;
+  padding-top: 20px;
+}
+.conhecimentosh1{
+text-align: center;
+  font-family: Tahoma;
+  padding-top: 20px;
+  padding-right: 165px;
+}
+.list1{
+  text-align: center;
+  position: left;
+  padding-left: 25px;
+}
+list2{
+  text-align: center;
+}
+.mae{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  background: #aabbfd;
+  color: #545454;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+.table1{
+  background: #404040;
+  color: white;
+  width: 500px;
+  height: 200px;
+
+}
+.list1{
+  position: absolute;
+  display: flex;
+}
+.list2{
+  position: relative;
+  left: 500px;
+  display: flex;
+}
+
+.table2{
+  background: #404040;
+  color: white;
+  width: 500px;
+  height: 200px;
+
+
+}
+.conhecimentos2h1{
+  text-align: center;
+  font-family: Tahoma;
+  padding-top: 20px;
+  justify-content: space-between;
+}
